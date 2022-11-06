@@ -39,6 +39,16 @@ section {
     padding-bottom: 100px;
 }
 
+.section-intro {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.section-intro p {
+    max-width: 500px;
+    margin: auto;
+}
+
 #lexik {
     min-height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/hope3.jpg);
