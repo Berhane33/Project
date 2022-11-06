@@ -17,7 +17,7 @@
 </head>
 <body data-bs-sp="scroll" data-bs-target=".navbar" id="home">
     
-    <nav class="navbar navbar-expand-lg bg-white">
+    <nav class="navbar navbar-expand-lg bg-white sticky-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="./assets/images/logo.jpg" height="70" width="70" alt="logo"/>
@@ -28,19 +28,19 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mx-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Who we are</a>
+                <a class="nav-link" href="#about">Who we are</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="#contact">Contact Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">We need you</a>
+                <a class="nav-link" href="#join">We need you</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Team</a>
+                <a class="nav-link" href="#team">Team</a>
               </li>
             </ul>
           </div>
@@ -58,13 +58,23 @@
            <div class="row">
             <form action="#" class="col-lg-6 mx-auto">
                 <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2"/>
+                    <input type="text" class="form-control" placeholder="Enter your email address" aria-label="Recipient's username" aria-describedby="button-addon2"/>
                     <button class="btn btn-brand" type="button" id="button-addon2">Subscribe</button>
                   </div>
             </form>
            </div>
         </div>
+      </section>
 
+      <section id="about">
+          <div class="container">
+            <div class="row">
+                <div class="col-12 section-intro">
+                    <h1>Who we are</h1>
+                    <p>Founded in 2019 by a group of friends and former classmates, Lexik Foundation focuses on helping chlidren from poor families, especially in the rural areas, with the basic needs for the education. We also target the carceral young population, and young girls in a society where being a girl is like being a second class citizen. We deeply believe that Ignorance is an absolute darkness that opens the door of a vicious abyss. Education, on the other hand, is without any doubt which keeps us from tumbling in that abyss.   </p>
+                </div>
+            </div>
+          </div>
       </section>
 
     <script src="./assets/js/jquery.min.js"></script>

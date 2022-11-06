@@ -64,14 +64,19 @@ section {
 }
 
 #lexik .input-group {
-    padding: 12px;
-    background-color: rgba(255, 255, 255, 0.5);
+    padding: 6px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: var(--border-radius);
 }
 
 #lexik .input-group input {
     border: none;
     background-color: transparent;
     color: white;
+}
+
+#lexik .input-group input::placeholder {
+        color: white;
 }
 
 #lexik .input-group input:focus {
