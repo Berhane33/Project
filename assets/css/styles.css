@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@600;700;800&family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+:root {
+    --brand: #B33030;
+    --body: #606060;
+    --dark: #19282f;
+    --border-radius: 4px;
+    --shadow: 0px 4px 60px rgba(0, 0, 0, 0.14);
+}
+
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    line-height: 1.7;
+    color: var(--body);
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700;
+    color: var(--dark);
+    font-family: "Domine";
+}
+
+a {
+    color: var(--dark);
+    text-decoration: none;
+    transition: all 0.4s linear;
+}
+
+a:hover {
+    color: var(--brand);
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#lexik {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/hope3.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#lexik h1 {
+    font-weight: 900;
+}
+
+#lexik h1,
+#lexik p {
+    color:white;
+}
+
+#lexik p {
+    max-width: 500px;
+    margin: 12px auto 28px auto;
+}
+
+#lexik .input-group {
+    padding: 12px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#lexik .input-group input {
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+#lexik .input-group input:focus {
+    box-shadow: none;
+}
+
+.btn {
+    padding: 12px 28px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.btn-brand {
+    background-color: #B33030;
+    color: white;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+}
+
+.navbar.bg-white {
+    border-bottom: 1px solid;
+}
+
+.navbar .navbar-nav .nav-link {
+    font-weight: 800;
+    font-size: larger;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+    color:#B33030;
+}
