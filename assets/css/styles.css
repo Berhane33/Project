@@ -199,24 +199,29 @@ ul li a:hover:before{
 }
 
 #quote {
-  border-style: solid;
-  border-color: rgb(16, 4, 4);
-  background-color: bisque;
+  border-left: 10px solid red;
+  background-color:#e0d4d4;
 }
 
 #quote h1 {
   text-align: center;
+  font-style:inherit;
 }
 
 #quote p {
-  font-family: cursive;
+  font-family:'Courier New', Courier, monospace;
   font-style: oblique;
-  font-size: medium;
+  font-size: 18px larger;
 }
 
 #join {
     background-color: #e0cccc;
    
+}
+
+#fight {
+  text-align: center;
+  font-size: larger;
 }
 
 
