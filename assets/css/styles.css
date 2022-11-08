@@ -126,6 +126,10 @@ section {
   transform: translateY(-3px);
 }
 
+.navbar{
+  background-color: #f6f2f3;
+}
+
 ul{
   margin:0;
   padding:0;
@@ -211,7 +215,7 @@ ul li a:hover:before{
 #quote p {
   font-family:'Courier New', Courier, monospace;
   font-style: oblique;
-  font-size: 18px larger;
+  font-size: 18px;
 }
 
 #join {
