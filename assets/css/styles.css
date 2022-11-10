@@ -268,3 +268,10 @@ ul li a:hover:before {
 #team p{
   text-align: center;
 }
+
+#gallery{
+  background-image: url("../images/baobab.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
