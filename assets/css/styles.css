@@ -228,4 +228,27 @@ ul li a:hover:before{
   font-size: larger;
 }
 
+.link-custom {
+  font-weight: 700;
+  position: relative;
+  color: crimson;
+  border: 2px solid rgb(16, 13, 13);
+  border-radius: 12px;
+  padding: 5px;
+  background-color: #e3d5d5;
+}
 
+.link-custom::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: var(--color-brand);
+  position: absolute;
+  left: 0;
+  top: 110%;
+  transition: all 0.4s;
+}
+
+.link-custom:hover::after {
+  width: 100%;
+}
