@@ -213,24 +213,48 @@ ul li a:hover:before {
   margin-bottom: 12px;
 }
 
-#quote {
-  border-left: 10px solid red;
-  background-color: #e0d4d4;
+
+#scroll-container {
+  float:left;
+    width: auto;
+    font-size: 25px;
+    font-style: italic;
+    border-left: 10px solid red;
+    text-align: center;
+    white-space:nowrap;
+    
+    overflow: hidden;
+    background-color: #e8d8dba6;
 }
 
-#quote h1 {
-  text-align: center;
-  font-style: inherit;
+#scroll-text {
+  /* animation properties */
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  
+  -moz-animation: my-animation 15s linear infinite;
+  -webkit-animation: my-animation 15s linear infinite;
+  animation: my-animation 30s linear infinite;
 }
 
-#quote p {
-  font-family: "Courier New", Courier, monospace;
-  font-style: oblique;
-  font-size: 18px;
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateX(100%); }
+  to { -webkit-transform: translateX(-100%); }
 }
 
-#join {
-  background-color: #e0cccc;
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%);
+    -webkit-transform: 
+translateX(100%);
+    transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
 }
 
 #fight {
