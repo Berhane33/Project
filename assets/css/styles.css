@@ -54,7 +54,7 @@ section {
   margin: auto;
 }
 
-.custom-card {
+/* .custom-card {
   background-color: white;
   transition: all 0.4s ease;
   border-radius: var(--border-radius);
@@ -63,7 +63,7 @@ section {
 .custom-card:hover {
   transform: translateY(-4px);
   box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.14);
-}
+} */
 
 #lexik {
   min-height: 100vh;
