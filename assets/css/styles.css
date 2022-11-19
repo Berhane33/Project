@@ -213,48 +213,12 @@ ul li a:hover:before {
   margin-bottom: 12px;
 }
 
-
-#scroll-container {
-  float:left;
-    width: auto;
-    font-size: 25px;
-    font-style: italic;
-    border-left: 10px solid red;
-    text-align: center;
-    white-space:nowrap;
-    
-    overflow: hidden;
-    background-color: #e8d8dba6;
-}
-
-#scroll-text {
-  /* animation properties */
-  -moz-transform: translateX(100%);
-  -webkit-transform: translateX(100%);
-  transform: translateX(100%);
-  
-  -moz-animation: my-animation 15s linear infinite;
-  -webkit-animation: my-animation 15s linear infinite;
-  animation: my-animation 30s linear infinite;
-}
-
-@-webkit-keyframes my-animation {
-  from { -webkit-transform: translateX(100%); }
-  to { -webkit-transform: translateX(-100%); }
-}
-
-@keyframes my-animation {
-  from {
-    -moz-transform: translateX(100%);
-    -webkit-transform: 
-translateX(100%);
-    transform: translateX(100%);
-  }
-  to {
-    -moz-transform: translateX(-100%);
-    -webkit-transform: translateX(-100%);
-    transform: translateX(-100%);
-  }
+marquee {
+  font-size:xx-large;
+  font-style: italic;
+  font-size: 800;
+  color: maroon;
+  background-color: #cbc8c8;
 }
 
 #fight {
@@ -289,11 +253,11 @@ translateX(100%);
 
 #team h1,
 #team h4,
-#team p{
+#team p {
   text-align: center;
 }
 
-#gallery{
+#gallery {
   background-image: url("../images/baobab.jpg");
   background-position: center;
   background-repeat: no-repeat;
