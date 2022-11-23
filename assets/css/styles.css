@@ -263,3 +263,137 @@ marquee {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
+#donate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url("../images/_122591496_whatsubject.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Raleway;
+  color: white;
+  letter-spacing: 1px;
+}
+
+#donate h1 {
+  text-align: center;
+  color: #cbc8c8;
+}
+#donate p {
+  text-align: center;
+}
+
+#donate .card-form {
+  width: 40em;
+  height: 30em;
+  border-radius: 10px;
+  background: 333c4a;
+  box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 1), 0 17px 17px 0 rgba(0, 0, 0, 0.15);
+}
+#donate .card-form .form-indicator {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 0.5em;
+  font-size: 20px;
+  font-weight: bold;
+  background: #27ae60;
+  border-radius: 10px 10px 0 0;
+}
+#donate .card-form .form-body {
+  padding: 10px;
+}
+#donate .card-form .form-body .row {
+  display:-webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 10px;
+}
+
+#donate .card-form .form-body .row input[type="text"] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 100%;
+  margin: 0 15px;
+  height: 35px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background: #262c36;
+  color: #7c8086;
+  font-size: 14px;
+}
+#donate .card-form .form-body .row .form-block .button {
+  
+  text-align:justify;
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  border: none;
+  border-radius: 2px;
+  padding: 5px 14px;
+  background: #262c36;
+  margin: 10px;
+  font-size: 14px;
+  -webkit-transition: 400ms background-color;
+	-moz-transition: 800ms opacity, 800ms right;
+	-ms-transition: 800ms opacity, 800ms right;
+	-o-transition: 800ms opacity, 800ms right;
+	transition: 200ms background-color;
+}
+#donate .card-form .form-body .row .form-block .button:hover {
+	background-color: #82d14b;
+}
+/* .card-form .form-body .row .form-block .button:visited {
+	background-color: #82d14b;
+} */
+#donate .card-form .form-footer {
+  margin: 0 25px 15px 25px;
+  padding: 15px 10px;
+}
+
+#donate .card-form .form-footer .btn {
+  text-align:center;
+  
+  display: inline-block;
+  height: 30px;
+  width:95%;
+  
+  line-height: 30px;
+  border: none;
+  border-radius: 2px;
+  padding: 5px 10px;
+  background: #82d14b;
+  margin: 5px;
+  font-size: 14px;
+    -webkit-transition: 400ms background-color;
+	-moz-transition: 800ms opacity, 800ms right;
+	-ms-transition: 800ms opacity, 800ms right;
+	-o-transition: 800ms opacity, 800ms right;
+	transition: 200ms background-color;
+}
+
+#donate .card-form .form-footer .btn:hover{
+  background-color: #9be765;
+}
